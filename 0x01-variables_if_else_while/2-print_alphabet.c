@@ -7,17 +7,14 @@
  *Return: Always 0 (Success) 
 */
 
-void main()
+int main()
 {
   int ch;
-  clrscr();
   
   for (ch = 'a'; ch <= 'z'; ch++)
   
   putchar(ch);
   putchar('\n');
-
-  getch ();
 
   return 0;
 }
