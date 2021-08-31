@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <stdio.h>
+#include "_putchar.c"
 
 /**
  *main - Check description
@@ -8,15 +8,14 @@
  *Return: 0.
  */
 
-int main(void)
+int main()
 {
         char word[9] = "Holberton";
         int i;
 
         for (i = 0; i < 9; i++)
                  _putchar(word[i]);
-        _putchar('\n');
+         _putchar('\n');
 
-        return (o);
-
+	 return (0);
 }
