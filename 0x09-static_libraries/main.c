@@ -1,4 +1,11 @@
 #include "main.h"
+#include <unistd.h>
+
+/**
+ *main - check description
+ *Description: Static libraries
+ *Return: 0.
+ */
 
 int main(void)
 {
